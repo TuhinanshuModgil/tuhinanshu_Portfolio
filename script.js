@@ -17,7 +17,7 @@ window.addEventListener("mousemove", (event) => {
 
   parallaxEl.forEach((e) => {
     let eSpeedx = e.dataset.speedx;
-    let eSpeedy = Number(eSpeedx) + 0.01;
+    let eSpeedy = Number(eSpeedx) + 0.08;
     console.log(eSpeedy);
     e.style.transform = `translateX(calc(-50% - ${
       xVal * eSpeedx
