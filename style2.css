@@ -201,7 +201,7 @@ line-height: 20px;
 /* -----------------Projects--------------------*/
 .projects{
     height: 720px;
-    background: url(Images/970520-workers-robot-futuristic-digital-art-welding.jpg);
+    background: url(Images/ProjectsBG.jpg);
     background-size: cover;
     background-position: 0px -30px;
     background-repeat: no-repeat;
@@ -210,8 +210,10 @@ line-height: 20px;
     top: 0;
     overflow: hidden;
     position: relative;
-    padding-top: 220px;
+    padding-top: 100px;
     padding-left: 200px;
+    padding-right: 100px;
+    color: white;
 }
 
 .projects h1{
@@ -219,4 +221,67 @@ line-height: 20px;
     font-size: 3.2rem;
     font-weight: 500;
     margin-bottom: 50px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+}
+.project-section{
+    width: 300px;
+    margin: 20px 20px 20px 0px;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 30px;
+    transition: 0.3s;
+}
+.project-section:hover{
+    transform: scale(1.2);
+    background-color: rgba(187, 25, 33, 0.884);
+}
+
+.project-section h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.project-section h3{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.project-section li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* -----------------Footer--------------------*/
+footer{
+    height: 200px;
+    max-width: 1400px;
+    background: url(Images/footerBG1.jpg);
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.89); */
+    margin: 0 auto;
+}
+footer h1{
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.svg-inline--fa{
+    height: 2em;
+}
+.icon-cont {
+    color: #fff;
 }
