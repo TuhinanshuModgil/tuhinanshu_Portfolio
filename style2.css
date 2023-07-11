@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #333;
+}
+
+.logo{
+    width: 150px;
+}
+header{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+header nav{
+    background-color: rgba(255, 255, 255, 0);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul a{
+    text-decoration: none;
+    color: #07121aff;
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding: 0 1.5rem;
+}
+.hero{
+    height: 100vh;
+    background-color: antiquewhite;
+    width: 100vw;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+
+}
+.bg{
+    position: absolute;
+    width: 1500px;
+    top: calc(50% + 150px);
+    left: calc(50%);
+    z-index: 1;
+}
+.first{
+    position: absolute;
+    width: 1500px;
+    top: calc(50% + 150px);
+    left: calc(50%);
+    z-index: 2;
+
+}
+.text{
+    position: absolute;
+    z-index: 3;
+    top: calc(50% - 50px);
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #07121aff;
+}
+
+.text h2{
+    font-weight: 200;
+    font-size: 4.5rem;
+line-height: 20px;
+
+}
+.text h1{
+    font-weight: 800;
+    font-size: 6rem;
+
+
+}
+.second{
+    position: absolute;
+    width: 1500px;
+    top: calc(50% + 200px);
+    left: calc(50%);
+    z-index: 4;
+    
+}
+.third{
+    position: absolute;
+    width: 1500px;
+    top: calc(50% + 230px);
+    left: calc(50%);
+    z-index: 5;
+    
+}
+.fourth{
+    position: absolute;
+    width: 1500px;
+    top: calc(50% + 250px);
+    left: calc(50%);
+    z-index: 6;
+    
+}
+.fifth{
+    position: absolute;
+    width: 1500px;
+    top: calc(50% + 250px);
+    left: calc(50%);
+    z-index: 7;
+    
+}
+.parallax{
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    transition: 0.45s cubic-bezier(.38,.98,.6,.93);
+}
