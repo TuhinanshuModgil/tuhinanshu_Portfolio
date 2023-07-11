@@ -9,7 +9,7 @@ body{
     font-family: 'Raleway', sans-serif;
     background-color: rgb(255, 255, 255);
 }
-
+/* -----------------Header Bar--------------------*/
 .logo{
     width: 150px;
 }
@@ -42,6 +42,9 @@ header ul a{
     font-size: 0.85rem;
     padding: 0 1.5rem;
 }
+
+/* -----------------Hero Section--------------------*/
+
 .hero{
     height: 720px;
     background-color: antiquewhite;
@@ -54,8 +57,8 @@ header ul a{
 }
 .bg{
     position: absolute;
-    width: 1500px;
-    top: 56.6%; /* changed from calc(50% + 100px) to its percentage*/
+    width: 2000px;
+    top: 45%; /* changed from calc(50% + 100px) to its percentage*/
     left: calc(50%);
     z-index: 1;
 }
@@ -128,6 +131,9 @@ line-height: 20px;
     transition: 0.45s cubic-bezier(.38,.98,.6,.93);
 }
 
+/* -----------------About Me--------------------*/
+
+
 .aboutMe{
     height: 720px;
     background: url(Images/wallpaperflare.com_wallpaper.jpg);
@@ -153,4 +159,64 @@ line-height: 20px;
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 40px;
+}
+
+/* -----------------Skills--------------------*/
+
+.skills{
+    height: 720px;
+    background: url(Images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: cover;
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin:0 auto;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.skills h1{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.skills h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.skills h3{
+    color: rgb(170, 170, 170);
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 35px;
+    width: 65ch;
+    margin-bottom: 30px;
+}
+
+/* -----------------Projects--------------------*/
+.projects{
+    height: 720px;
+    background: url(Images/970520-workers-robot-futuristic-digital-art-welding.jpg);
+    background-size: cover;
+    background-position: 0px -30px;
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    margin:0 auto;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 220px;
+    padding-left: 200px;
+}
+
+.projects h1{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 50px;
 }
