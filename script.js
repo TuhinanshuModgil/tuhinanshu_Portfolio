@@ -24,4 +24,6 @@ window.addEventListener("mousemove", (event) => {
     }px)) translateY(calc(-50% - ${yVal * eSpeedy}px))`;
     // console.log(e.style);
   });
+
+  
 });

@@ -210,7 +210,7 @@ line-height: 20px;
     top: 0;
     overflow: hidden;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 200px;
     padding-right: 100px;
     color: white;
@@ -220,7 +220,7 @@ line-height: 20px;
     color: white;
     font-size: 3.2rem;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .project-container{
     display: flex;
@@ -248,9 +248,14 @@ line-height: 20px;
 }
 .project-section h3{
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 200;
     
+}
+.project-section img{
+    width: 20px;
+    margin-top: 20px;    
 }
 .project-section li{
     margin-top: 10px;
